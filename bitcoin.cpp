@@ -296,7 +296,7 @@ bool TestNode(const CService &cip, int &ban, int &clientV, std::string &clientSV
   }
 }
 
-
+/*
 int main(void) {
   CService ip("slateseeder1.xhost.xyz", 37415, true);
   vector<CAddress> vAddr;
@@ -305,5 +305,5 @@ int main(void) {
   bool ret = TestNode(ip, ban, vAddr);
   printf("ret=%s ban=%i vAddr.size()=%i\n", ret ? "good" : "bad", ban, (int)vAddr.size());
 }
-
+*/
 
