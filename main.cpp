@@ -400,7 +400,7 @@ extern "C" void* ThreadStats(void*) {
   return nullptr;
 }
 
-static const string mainnet_seeds[] = {"main.seeder.slate.host", "slateseeder1.xhost.xyz", ""};
+static const string mainnet_seeds[] = {"main.seeder.slate.host", "slateseeder1.xhost.host", ""};
 static const string testnet_seeds[] = {"testnet.seeder.slate.host", "slatetestseeder1.xhost.xyz",
                                        ""};
 static const string *seeds = mainnet_seeds;
