@@ -401,7 +401,7 @@ extern "C" void* ThreadStats(void*) {
 }
 
 static const string mainnet_seeds[] = {"main.seeder.slate.host", "main.slateseeder1.xhost.host", "main.slateseeder2.eu1.xhost.host", "main.slateseeder3.asia1.xhost.host", "main.slateseeder4.aus1.xhost.host", ""};
-static const string testnet_seeds[] = {"testnet.seeder.slate.host", "testnet.slatetestseeder1.xhost.host", , "testnet.slatetestseeder2.eu1.xhost.host", "testnet.slatetestseeder3.asia1.xhost.host", "testnet.slatetestseeder4.aus1.xhost.host",
+static const string testnet_seeds[] = {"testnet.seeder.slate.host", "testnet.slatetestseeder1.xhost.host", "testnet.slatetestseeder2.eu1.xhost.host", "testnet.slatetestseeder3.asia1.xhost.host", "testnet.slatetestseeder4.aus1.xhost.host",
                                        ""};
 static const string *seeds = mainnet_seeds;
 
